@@ -63,12 +63,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 32px;
+    margin-left: 64px;
 }
-
-/* .comment-form{
- border: 1px solid pink;
-} */
 
 .flex-container{
     display: flex;
@@ -112,16 +108,13 @@ input[id="confirmPassword"]{
 
 input:focus{
     transition: all 300ms ease-in-out;
+    border-bottom: 2px solid red;
     background-color: #DFDFDF;
     border-radius: 10px;
     outline: none;
 
 }
 
-input:invalid{
-    border-bottom: 1px solid red;
-}
-
 input:valid{
-    border-bottom: 1px solid limegreen;
+    border-bottom: 2px solid limegreen;
 }
