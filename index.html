@@ -20,22 +20,22 @@
                 <div class="flex-container">
                     <div>
                         <label for="firstName">First Name <span aria-label="required">*</span></label><br>
-                        <input id="firstName" minlength="1" maxlength="15" pattern="[A-Za-z]+" required>
+                        <input id="firstName" minlength="1" maxlength="15" pattern="[A-Za-z]+" title="Please enter your first name." required>
                     </div>
                     <div>
                         <label for="lastName">Last Name <span aria-label="required">*</span></label><br>
-                        <input id="lastName" minlength="1" maxlength="15" pattern="[A-Za-z]+" required>
+                        <input id="lastName" minlength="1" maxlength="15" pattern="[A-Za-z]+" title="Please enter your last name." required>
                     </div>
                 </div><br>
 
                 <div class="flex-container">
                     <div>
                         <label for="email">Email <span aria-label="required">*</span></label><br>
-                        <input type="email" id="email" required>
+                        <input type="email" id="email" minlength="1" required>
                     </div>
                     <div>
                         <label for="number">Number <span aria-label="required">*</span></label><br>
-                        <input type="tel" id="number" minlength="1" maxlength="10" pattern="[0-9]{10}" required>
+                        <input type="tel" id="number" minlength="1" maxlength="10" pattern="[0-9]{10}" title="Please enter a 10-digit phone number." required>
                     </div>
                 </div><br>
 
